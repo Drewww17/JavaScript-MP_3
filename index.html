@@ -1,36 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Machine Problem 3: ReplaceWord</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Machine Problem 3 by Philip Luminarias</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <h1>Machine Problem 3 by Philip Luminarias</h1>
 
-    <h1>Machine Problem 3 by Philip Luminarias</h1>
+  <p>
+    Sentence:
+    <input type="text" id="sentence" value="I love PHP">
+    Word to replace:
+    <input type="text" id="old-word" value="PHP">
+    Replace with:
+    <input type="text" id="new-word" value="Javascript">
+    <button type="button" onclick="replaceWord()">Replace Word</button>
+  </p>
 
-    <form>
-        <label>Sentence:</label>
-        <input type="text" id="sentence">
-
-        <label>Word to replace:</label>
-        <input type="text" id="old-word">
-
-        <label>Replace with:</label>
-        <input type="text" id="new-word">
-
-        <button type="button" onclick="replaceWord()">Replace Word</button>
-    </form>
-
-    <br>
-
-    <label>Output:</label>
+  <p>
+    Output:
     <input type="text" id="replace-output">
+  </p>
 
-    <!-- FIXED: Correct script path -->
-    <script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>

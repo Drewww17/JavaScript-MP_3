@@ -8,22 +8,24 @@
 <body>
   <h1>Machine Problem 3 by Philip Luminarias</h1>
 
-  <p>
-    Sentence:
+  <form>
+    <label>Sentence:</label>
     <input type="text" id="sentence" value="I love PHP">
-    Word to replace:
-    <input type="text" id="old-word" value="PHP">
-    Replace with:
-    <input type="text" id="new-word" value="Javascript">
-    <button type="button" onclick="replaceWord()">Replace Word</button>
-  </p>
 
-  <p>
-    Output:
-    <input type="text" id="replace-output">
-  </p>
+    <label>Word to replace:</label>
+    <input type="text" id="old-word" value="PHP">
+
+    <label>Replace with:</label>
+    <input type="text" id="new-word" value="Javascript">
+
+    <button type="button" onclick="replaceWord()">Replace Word</button>
+  </form>
+
+  <br>
+
+  <label>Output:</label>
+  <input type="text" id="replace-output">
 
   <script src="script.js"></script>
 </body>
 </html>
-
